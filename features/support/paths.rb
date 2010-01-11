@@ -12,6 +12,8 @@ module NavigationHelpers
 
     when /the signup page/
       signup_path
+    when /the demo page/
+      "/demo"
 
     
     when /the home\s?page/

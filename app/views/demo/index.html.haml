@@ -1,0 +1,19 @@
+%h2
+  Demo
+
+%hr
+
+- form_remote_tag :url => {:action => "js"}, :update => "update_me" do
+  = submit_tag
+
+#update_me
+
+%hr
+
+= link_to "toggle", "#", :onclick => "$('.toggler').toggle(); return false;"
+
+.toggler
+  Haha, I am the one true toggler!
+
+.toggler{:style => "display: none;"}
+  Haha, I am an usurping toggler!
