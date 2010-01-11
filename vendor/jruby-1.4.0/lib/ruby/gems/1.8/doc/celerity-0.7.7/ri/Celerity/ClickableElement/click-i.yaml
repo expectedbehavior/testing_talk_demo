@@ -1,0 +1,13 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: 
+  - !ruby/object:RI::AliasName 
+    name: click_no_wait
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: click the element
+full_name: Celerity::ClickableElement#click
+is_singleton: false
+name: click
+params: ()
+visibility: public

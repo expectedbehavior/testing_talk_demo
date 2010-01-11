@@ -1,0 +1,17 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: This exception is thrown if an attempt is made to access an object that doesn't exist
+constants: []
+
+full_name: Celerity::Exception::UnknownObjectException
+includes: []
+
+instance_methods: []
+
+name: UnknownObjectException
+superclass: CelerityException

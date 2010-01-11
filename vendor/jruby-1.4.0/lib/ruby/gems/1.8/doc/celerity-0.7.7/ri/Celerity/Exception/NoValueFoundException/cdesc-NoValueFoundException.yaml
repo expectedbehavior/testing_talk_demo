@@ -1,0 +1,17 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: This exception is thrown if an attempt is made to access an object when the specified value cannot be found
+constants: []
+
+full_name: Celerity::Exception::NoValueFoundException
+includes: []
+
+instance_methods: []
+
+name: NoValueFoundException
+superclass: CelerityException

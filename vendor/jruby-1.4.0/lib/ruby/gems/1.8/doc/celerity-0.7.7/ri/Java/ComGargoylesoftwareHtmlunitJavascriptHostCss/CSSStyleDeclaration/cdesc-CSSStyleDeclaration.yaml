@@ -1,0 +1,16 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+constants: []
+
+full_name: Java::ComGargoylesoftwareHtmlunitJavascriptHostCss::CSSStyleDeclaration
+includes: 
+  - !ruby/object:RI::IncludedModule 
+    name: Celerity::JsxHelper
+instance_methods: []
+
+name: CSSStyleDeclaration
+superclass: Object

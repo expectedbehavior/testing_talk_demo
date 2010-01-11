@@ -1,0 +1,14 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: Returns the absolute URL for this link (Celerity-specific)
+  - !ruby/struct:SM::Flow::P 
+    body: (Watir/IE does this for href(), but we don't want that.)
+full_name: Celerity::Link#absolute_url
+is_singleton: false
+name: absolute_url
+params: ()
+visibility: public

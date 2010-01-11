@@ -1,0 +1,17 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: This exception is thrown if an unexpected content type is returned by the server.
+constants: []
+
+full_name: Celerity::Exception::CookieNotFoundError
+includes: []
+
+instance_methods: []
+
+name: CookieNotFoundError
+superclass: CelerityException

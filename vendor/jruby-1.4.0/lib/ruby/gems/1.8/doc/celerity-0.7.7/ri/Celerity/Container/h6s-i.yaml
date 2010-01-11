@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: "@return [Celerity::H6s]"
+full_name: Celerity::Container#h6s
+is_singleton: false
+name: h6s
+params: ()
+visibility: public

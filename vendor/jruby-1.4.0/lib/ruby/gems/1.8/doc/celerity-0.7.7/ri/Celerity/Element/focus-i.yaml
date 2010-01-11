@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: Sets the focus to this element.
+full_name: Celerity::Element#focus
+is_singleton: false
+name: focus
+params: ()
+visibility: public

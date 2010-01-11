@@ -1,0 +1,13 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: 
+  - !ruby/object:RI::AliasName 
+    name: tfeet
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: "@return [Celerity::TableFooters]"
+full_name: Celerity::Container#tfoots
+is_singleton: false
+name: tfoots
+params: ()
+visibility: public

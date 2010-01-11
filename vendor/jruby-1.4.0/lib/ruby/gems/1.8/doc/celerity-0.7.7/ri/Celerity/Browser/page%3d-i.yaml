@@ -1,0 +1,14 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: Sets the current page object for the browser
+  - !ruby/struct:SM::Flow::P 
+    body: "@param [HtmlUnit::HtmlPage] value The page to set. @api private"
+full_name: Celerity::Browser#page=
+is_singleton: false
+name: page=
+params: (value)
+visibility: public

@@ -1,0 +1,17 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: This exception is thrown if an http error, such as a 404, 500 etc is encountered while navigating
+constants: []
+
+full_name: Celerity::Exception::NavigationException
+includes: []
+
+instance_methods: []
+
+name: NavigationException
+superclass: CelerityException

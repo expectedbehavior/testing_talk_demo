@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: "@return [String] content-type as in 'text/html'"
+full_name: Celerity::Browser#content_type
+is_singleton: false
+name: content_type
+params: ()
+visibility: public

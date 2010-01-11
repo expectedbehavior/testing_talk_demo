@@ -1,0 +1,27 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: Superclass for for Span, Pre, Div, H1, ...
+constants: 
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: ATTRIBUTES
+    value: BASE_ATTRIBUTES
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: DEFAULT_HOW
+    value: ":id"
+full_name: Celerity::NonControlElement
+includes: 
+  - !ruby/object:RI::IncludedModule 
+    name: Exception
+  - !ruby/object:RI::IncludedModule 
+    name: ClickableElement
+instance_methods: []
+
+name: NonControlElement
+superclass: Element

@@ -1,0 +1,17 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: 
+  - !ruby/object:RI::AliasName 
+    name: checked?
+  - !ruby/object:RI::AliasName 
+    name: isSet?
+  - !ruby/object:RI::AliasName 
+    name: getState
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: returns true if the element is checked @return [true, false]
+full_name: Celerity::RadioCheckCommon#set?
+is_singleton: false
+name: set?
+params: ()
+visibility: public

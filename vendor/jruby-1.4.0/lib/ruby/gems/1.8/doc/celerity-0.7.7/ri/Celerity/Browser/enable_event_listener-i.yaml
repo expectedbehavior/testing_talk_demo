@@ -1,0 +1,14 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: Enable Celerity's internal WebWindowEventListener
+  - !ruby/struct:SM::Flow::P 
+    body: "@api private"
+full_name: Celerity::Browser#enable_event_listener
+is_singleton: false
+name: enable_event_listener
+params: ()
+visibility: public

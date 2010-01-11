@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: "Alias for #check_box"
+full_name: Celerity::Container#checkbox
+is_singleton: false
+name: checkbox
+params: (*args)
+visibility: public

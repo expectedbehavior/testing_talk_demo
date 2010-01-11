@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+  <title>trace_javascript (Celerity::Browser)</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../../.././rdoc-style.css" type="text/css" media="screen" />
+</head>
+<body class="standalone-code">
+  <pre><span class="ruby-comment cmt"># File lib/celerity/browser.rb, line 494</span>
+    <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">trace_javascript</span>(<span class="ruby-identifier">debugger_klass</span> = <span class="ruby-constant">Celerity</span><span class="ruby-operator">::</span><span class="ruby-constant">JavascriptDebugger</span>, <span class="ruby-operator">&amp;</span><span class="ruby-identifier">blk</span>)
+      <span class="ruby-identifier">context_factory</span> = <span class="ruby-ivar">@webclient</span>.<span class="ruby-identifier">getJavaScriptEngine</span>.<span class="ruby-identifier">getContextFactory</span>
+      <span class="ruby-identifier">context_factory</span>.<span class="ruby-identifier">setDebugger</span> <span class="ruby-identifier">debugger_klass</span>.<span class="ruby-identifier">new</span>
+      <span class="ruby-keyword kw">yield</span>
+      <span class="ruby-identifier">context_factory</span>.<span class="ruby-identifier">setDebugger</span> <span class="ruby-keyword kw">nil</span>
+    <span class="ruby-keyword kw">end</span></pre>
+</body>
+</html>

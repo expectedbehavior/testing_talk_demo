@@ -1,0 +1,14 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: Turn on/off status code exceptions
+  - !ruby/struct:SM::Flow::P 
+    body: "@param [Bool]"
+full_name: Celerity::Browser#status_code_exceptions=
+is_singleton: false
+name: status_code_exceptions=
+params: (bool)
+visibility: public

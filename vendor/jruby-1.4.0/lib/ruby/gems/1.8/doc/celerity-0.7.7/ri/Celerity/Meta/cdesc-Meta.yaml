@@ -1,0 +1,26 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+constants: 
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: ATTRIBUTES
+    value: HTML_401_TRANSITIONAL[:i18n] | [                                                     :'http-equiv',                                                     :content,                                                     :id,                                                     :name,                                                     :scheme,                                                    ]
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: DEFAULT_HOW
+    value: ":id"
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: TAGS
+    value: "[ Identifier.new('meta') ]"
+full_name: Celerity::Meta
+includes: []
+
+instance_methods: []
+
+name: Meta
+superclass: Element

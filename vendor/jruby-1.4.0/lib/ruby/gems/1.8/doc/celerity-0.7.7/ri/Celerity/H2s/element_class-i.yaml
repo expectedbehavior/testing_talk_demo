@@ -1,0 +1,10 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+full_name: Celerity::H2s#element_class
+is_singleton: false
+name: element_class
+params: ()
+visibility: public

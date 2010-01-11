@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: "@return [Celerity::Forms]"
+full_name: Celerity::Container#forms
+is_singleton: false
+name: forms
+params: ()
+visibility: public

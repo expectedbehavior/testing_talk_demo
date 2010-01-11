@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: "@return [Celerity::Dts]"
+full_name: Celerity::Container#dts
+is_singleton: false
+name: dts
+params: ()
+visibility: public

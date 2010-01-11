@@ -1,0 +1,14 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: Wait until the given block evaluates to true (Celerity only)
+  - !ruby/struct:SM::Flow::P 
+    body: "@param [Fixnum] timeout Number of seconds to wait before timing out (default: 30). @yieldparam [Celerity::Browser] browser The browser instance. @see Celerity::Browser#resynchronized"
+full_name: Celerity::Browser#wait_until
+is_singleton: false
+name: wait_until
+params: (timeout = 30, &block)
+visibility: public

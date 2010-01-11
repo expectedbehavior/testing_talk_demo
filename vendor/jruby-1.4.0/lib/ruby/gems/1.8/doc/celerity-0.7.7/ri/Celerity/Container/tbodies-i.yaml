@@ -1,0 +1,13 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: 
+  - !ruby/object:RI::AliasName 
+    name: bodies
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: "@return [Celerity::TableBodies]"
+full_name: Celerity::Container#tbodies
+is_singleton: false
+name: tbodies
+params: ()
+visibility: public

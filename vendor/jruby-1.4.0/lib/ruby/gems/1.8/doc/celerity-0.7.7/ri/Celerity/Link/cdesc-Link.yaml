@@ -1,0 +1,28 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+constants: 
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: TAGS
+    value: "[ Identifier.new('a') ]"
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: ATTRIBUTES
+    value: BASE_ATTRIBUTES | [                                       :accesskey,                                       :charset,                                       :coords,                                       :href,                                       :hreflang,                                       :name,                                       :onblur,                                       :onfocus,                                       :rel,                                       :rev,                                       :shape,                                       :tabindex,                                       :target,                                       :type,                                     ]
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: DEFAULT_HOW
+    value: ":href"
+full_name: Celerity::Link
+includes: 
+  - !ruby/object:RI::IncludedModule 
+    name: ClickableElement
+instance_methods: 
+  - !ruby/object:RI::MethodSummary 
+    name: absolute_url
+name: Link
+superclass: Element

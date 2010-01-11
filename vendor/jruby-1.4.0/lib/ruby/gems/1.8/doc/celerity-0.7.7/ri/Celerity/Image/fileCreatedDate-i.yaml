@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: "Alias for #file_created_date"
+full_name: Celerity::Image#fileCreatedDate
+is_singleton: false
+name: fileCreatedDate
+params: ()
+visibility: public

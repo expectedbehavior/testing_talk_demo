@@ -1,0 +1,22 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: 
+  - !ruby/object:RI::MethodSummary 
+    name: new
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: This class is the representation of a check box.
+constants: 
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: TAGS
+    value: "[Identifier.new('input', :type => %w[checkbox])]"
+full_name: Celerity::CheckBox
+includes: []
+
+instance_methods: 
+  - !ruby/object:RI::MethodSummary 
+    name: set
+name: CheckBox
+superclass: RadioCheckCommon

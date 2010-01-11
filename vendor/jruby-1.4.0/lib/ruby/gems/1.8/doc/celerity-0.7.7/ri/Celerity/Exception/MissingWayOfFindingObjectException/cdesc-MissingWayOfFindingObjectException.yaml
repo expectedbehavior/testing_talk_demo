@@ -1,0 +1,17 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: This exception gets raised if the how argument is wrong.
+constants: []
+
+full_name: Celerity::Exception::MissingWayOfFindingObjectException
+includes: []
+
+instance_methods: []
+
+name: MissingWayOfFindingObjectException
+superclass: CelerityException

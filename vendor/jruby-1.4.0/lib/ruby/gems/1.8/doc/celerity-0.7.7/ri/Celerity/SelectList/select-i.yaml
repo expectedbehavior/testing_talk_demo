@@ -1,0 +1,15 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: 
+  - !ruby/object:RI::AliasName 
+    name: set
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: Select the option(s) whose text or label matches the given string. If several options match the value given, all will be selected.
+  - !ruby/struct:SM::Flow::P 
+    body: "@param [String, Regexp] value A value. @raise [Celerity::Exception::NoValueFoundException] if the value does not exist. @return [String] The option selected. If multiple options match, returns the first match"
+full_name: Celerity::SelectList#select
+is_singleton: false
+name: select
+params: (value)
+visibility: public

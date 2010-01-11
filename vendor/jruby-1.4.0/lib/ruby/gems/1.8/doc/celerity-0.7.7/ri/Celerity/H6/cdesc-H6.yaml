@@ -1,0 +1,18 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+constants: 
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: TAGS
+    value: "[ Identifier.new('h6') ]"
+full_name: Celerity::H6
+includes: []
+
+instance_methods: []
+
+name: H6
+superclass: NonControlElement

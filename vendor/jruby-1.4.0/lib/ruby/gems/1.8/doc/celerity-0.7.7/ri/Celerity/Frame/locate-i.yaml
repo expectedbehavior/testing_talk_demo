@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: Override the default locate to handle frame and inline frames. @api private
+full_name: Celerity::Frame#locate
+is_singleton: false
+name: locate
+params: ()
+visibility: public

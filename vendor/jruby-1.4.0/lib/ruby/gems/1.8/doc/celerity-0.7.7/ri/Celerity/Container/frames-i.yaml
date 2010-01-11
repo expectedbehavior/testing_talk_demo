@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: "@return [Celerity::Frames]"
+full_name: Celerity::Container#frames
+is_singleton: false
+name: frames
+params: ()
+visibility: public

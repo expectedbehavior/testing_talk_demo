@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: double click the element (Celerity only)
+full_name: Celerity::ClickableElement#double_click
+is_singleton: false
+name: double_click
+params: ()
+visibility: public

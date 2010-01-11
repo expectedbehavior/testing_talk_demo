@@ -1,0 +1,13 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: 
+  - !ruby/object:RI::AliasName 
+    name: "[]"
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: Get the child cell at the given index
+full_name: Celerity::TableRow#child_cell
+is_singleton: false
+name: child_cell
+params: (index)
+visibility: public

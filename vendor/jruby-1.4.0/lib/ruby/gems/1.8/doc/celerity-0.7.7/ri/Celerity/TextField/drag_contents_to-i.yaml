@@ -1,0 +1,13 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: 
+  - !ruby/object:RI::AliasName 
+    name: dragContentsTo
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: "This bascially just moves the text to the other text field using TextField#append TODO: check if HtmlUnit supports some kind of dragging."
+full_name: Celerity::TextField#drag_contents_to
+is_singleton: false
+name: drag_contents_to
+params: (how, what)
+visibility: public

@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: Get the currently rendered page as a Base64-encoded PNG image. Only available in the Qt viewer.
+full_name: Celerity::ViewerConnection#image_data
+is_singleton: false
+name: image_data
+params: ()
+visibility: public

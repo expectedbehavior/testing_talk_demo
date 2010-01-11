@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: "@return [Celerity::Dl]"
+full_name: Celerity::Container#dl
+is_singleton: false
+name: dl
+params: (*args)
+visibility: public

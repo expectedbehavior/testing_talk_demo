@@ -1,0 +1,10 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+full_name: Celerity::TextField#requires_typing
+is_singleton: false
+name: requires_typing
+params: ()
+visibility: public

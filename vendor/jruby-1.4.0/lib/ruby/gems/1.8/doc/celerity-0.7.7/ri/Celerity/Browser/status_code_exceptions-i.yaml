@@ -1,0 +1,10 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+full_name: Celerity::Browser#status_code_exceptions
+is_singleton: false
+name: status_code_exceptions
+params: ()
+visibility: public

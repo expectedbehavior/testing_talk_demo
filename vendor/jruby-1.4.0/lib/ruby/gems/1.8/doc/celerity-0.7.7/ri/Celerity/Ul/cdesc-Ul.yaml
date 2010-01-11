@@ -1,0 +1,24 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: class Title &lt; NonControlElement
+  - !ruby/struct:SM::Flow::VERB 
+    body: "  TAGS = [ Identifier.new('title') ]\n"
+  - !ruby/struct:SM::Flow::P 
+    body: end
+constants: 
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: TAGS
+    value: "[ Identifier.new('ul') ]"
+full_name: Celerity::Ul
+includes: []
+
+instance_methods: []
+
+name: Ul
+superclass: NonControlElement

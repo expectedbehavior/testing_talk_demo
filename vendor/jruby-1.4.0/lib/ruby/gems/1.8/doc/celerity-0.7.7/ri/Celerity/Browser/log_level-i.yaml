@@ -1,0 +1,14 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: ":finest, :finer, :fine, :config, :info, :warning, :severe, or :off, :all"
+  - !ruby/struct:SM::Flow::P 
+    body: "@return [Symbol] the current log level"
+full_name: Celerity::Browser#log_level
+is_singleton: false
+name: log_level
+params: ()
+visibility: public

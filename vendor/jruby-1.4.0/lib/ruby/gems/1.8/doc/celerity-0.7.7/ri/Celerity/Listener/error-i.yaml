@@ -1,0 +1,13 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: 
+  - !ruby/object:RI::AliasName 
+    name: warning
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: interface HTMLParserListener
+full_name: Celerity::Listener#error
+is_singleton: false
+name: error
+params: (message, url, line, column, key)
+visibility: public

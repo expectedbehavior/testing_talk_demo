@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Module: Celerity</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <link rel="stylesheet" href=".././rdoc-style.css" type="text/css" media="screen" />
+  <script type="text/javascript">
+  // <![CDATA[
+
+  function popupCode( url ) {
+    window.open(url, "Code", "resizable=yes,scrollbars=yes,toolbar=no,status=no,height=150,width=400")
+  }
+
+  function toggleCode( id ) {
+    if ( document.getElementById )
+      elem = document.getElementById( id );
+    else if ( document.all )
+      elem = eval( "document.all." + id );
+    else
+      return false;
+
+    elemStyle = elem.style;
+    
+    if ( elemStyle.display != "block" ) {
+      elemStyle.display = "block"
+    } else {
+      elemStyle.display = "none"
+    }
+
+    return true;
+  }
+  
+  // Make codeblocks hidden by default
+  document.writeln( "<style type=\"text/css\">div.method-source-code { display: none }</style>" )
+  
+  // ]]>
+  </script>
+
+</head>
+<body>
+
+
+
+    <div id="classHeader">
+        <table class="header-table">
+        <tr class="top-aligned-row">
+          <td><strong>Module</strong></td>
+          <td class="class-name-in-header">Celerity</td>
+        </tr>
+        <tr class="top-aligned-row">
+            <td><strong>In:</strong></td>
+            <td>
+                <a href="../files/lib/celerity/browser_rb.html">
+                lib/celerity/browser.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/clickable_element_rb.html">
+                lib/celerity/clickable_element.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/collections_rb.html">
+                lib/celerity/collections.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/container_rb.html">
+                lib/celerity/container.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/default_viewer_rb.html">
+                lib/celerity/default_viewer.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/disabled_element_rb.html">
+                lib/celerity/disabled_element.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/element_rb.html">
+                lib/celerity/element.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/element_collection_rb.html">
+                lib/celerity/element_collection.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/element_locator_rb.html">
+                lib/celerity/element_locator.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/elements/button_rb.html">
+                lib/celerity/elements/button.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/elements/file_field_rb.html">
+                lib/celerity/elements/file_field.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/elements/form_rb.html">
+                lib/celerity/elements/form.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/elements/frame_rb.html">
+                lib/celerity/elements/frame.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/elements/image_rb.html">
+                lib/celerity/elements/image.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/elements/label_rb.html">
+                lib/celerity/elements/label.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/elements/link_rb.html">
+                lib/celerity/elements/link.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/elements/meta_rb.html">
+                lib/celerity/elements/meta.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/elements/non_control_elements_rb.html">
+                lib/celerity/elements/non_control_elements.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/elements/option_rb.html">
+                lib/celerity/elements/option.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/elements/radio_check_rb.html">
+                lib/celerity/elements/radio_check.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/elements/select_list_rb.html">
+                lib/celerity/elements/select_list.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/elements/table_rb.html">
+                lib/celerity/elements/table.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/elements/table_cell_rb.html">
+                lib/celerity/elements/table_cell.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/elements/table_elements_rb.html">
+                lib/celerity/elements/table_elements.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/elements/table_row_rb.html">
+                lib/celerity/elements/table_row.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/elements/text_field_rb.html">
+                lib/celerity/elements/text_field.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/exception_rb.html">
+                lib/celerity/exception.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/htmlunit_rb.html">
+                lib/celerity/htmlunit.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/identifier_rb.html">
+                lib/celerity/identifier.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/ignoring_web_connection_rb.html">
+                lib/celerity/ignoring_web_connection.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/input_element_rb.html">
+                lib/celerity/input_element.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/javascript_debugger_rb.html">
+                lib/celerity/javascript_debugger.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/listener_rb.html">
+                lib/celerity/listener.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/short_inspect_rb.html">
+                lib/celerity/short_inspect.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/util_rb.html">
+                lib/celerity/util.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/version_rb.html">
+                lib/celerity/version.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/viewer_connection_rb.html">
+                lib/celerity/viewer_connection.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/watir_compatibility_rb.html">
+                lib/celerity/watir_compatibility.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity/xpath_support_rb.html">
+                lib/celerity/xpath_support.rb
+                </a>
+        <br />
+                <a href="../files/lib/celerity_rb.html">
+                lib/celerity.rb
+                </a>
+        <br />
+            </td>
+        </tr>
+
+        </table>
+    </div>
+  <!-- banner header -->
+
+  <div id="bodyContent">
+
+
+
+  <div id="contextContent">
+
+
+
+   </div>
+
+
+  </div>
+
+
+    <!-- if includes -->
+
+    <div id="section">
+
+    <div id="class-list">
+      <h3 class="section-bar">Classes and Modules</h3>
+
+      Module <a href="Celerity/ClickableElement.html" class="link">Celerity::ClickableElement</a><br />
+Module <a href="Celerity/Container.html" class="link">Celerity::Container</a><br />
+Module <a href="Celerity/DisabledElement.html" class="link">Celerity::DisabledElement</a><br />
+Module <a href="Celerity/Exception.html" class="link">Celerity::Exception</a><br />
+Module <a href="Celerity/JsxHelper.html" class="link">Celerity::JsxHelper</a><br />
+Module <a href="Celerity/ShortInspect.html" class="link">Celerity::ShortInspect</a><br />
+Module <a href="Celerity/Util.html" class="link">Celerity::Util</a><br />
+Module <a href="Celerity/XpathSupport.html" class="link">Celerity::XpathSupport</a><br />
+Class <a href="Celerity/Area.html" class="link">Celerity::Area</a><br />
+Class <a href="Celerity/Areas.html" class="link">Celerity::Areas</a><br />
+Class <a href="Celerity/Browser.html" class="link">Celerity::Browser</a><br />
+Class <a href="Celerity/Button.html" class="link">Celerity::Button</a><br />
+Class <a href="Celerity/Buttons.html" class="link">Celerity::Buttons</a><br />
+Class <a href="Celerity/CheckBox.html" class="link">Celerity::CheckBox</a><br />
+Class <a href="Celerity/CheckBoxes.html" class="link">Celerity::CheckBoxes</a><br />
+Class <a href="Celerity/Dd.html" class="link">Celerity::Dd</a><br />
+Class <a href="Celerity/Dds.html" class="link">Celerity::Dds</a><br />
+Class <a href="Celerity/DefaultViewer.html" class="link">Celerity::DefaultViewer</a><br />
+Class <a href="Celerity/Div.html" class="link">Celerity::Div</a><br />
+Class <a href="Celerity/Divs.html" class="link">Celerity::Divs</a><br />
+Class <a href="Celerity/Dl.html" class="link">Celerity::Dl</a><br />
+Class <a href="Celerity/Dls.html" class="link">Celerity::Dls</a><br />
+Class <a href="Celerity/Dt.html" class="link">Celerity::Dt</a><br />
+Class <a href="Celerity/Dts.html" class="link">Celerity::Dts</a><br />
+Class <a href="Celerity/Element.html" class="link">Celerity::Element</a><br />
+Class <a href="Celerity/ElementCollection.html" class="link">Celerity::ElementCollection</a><br />
+Class <a href="Celerity/ElementLocator.html" class="link">Celerity::ElementLocator</a><br />
+Class <a href="Celerity/Em.html" class="link">Celerity::Em</a><br />
+Class <a href="Celerity/Ems.html" class="link">Celerity::Ems</a><br />
+Class <a href="Celerity/FileField.html" class="link">Celerity::FileField</a><br />
+Class <a href="Celerity/FileFields.html" class="link">Celerity::FileFields</a><br />
+Class <a href="Celerity/Form.html" class="link">Celerity::Form</a><br />
+Class <a href="Celerity/Forms.html" class="link">Celerity::Forms</a><br />
+Class <a href="Celerity/Frame.html" class="link">Celerity::Frame</a><br />
+Class <a href="Celerity/Frames.html" class="link">Celerity::Frames</a><br />
+Class <a href="Celerity/H1.html" class="link">Celerity::H1</a><br />
+Class <a href="Celerity/H1s.html" class="link">Celerity::H1s</a><br />
+Class <a href="Celerity/H2.html" class="link">Celerity::H2</a><br />
+Class <a href="Celerity/H2s.html" class="link">Celerity::H2s</a><br />
+Class <a href="Celerity/H3.html" class="link">Celerity::H3</a><br />
+Class <a href="Celerity/H3s.html" class="link">Celerity::H3s</a><br />
+Class <a href="Celerity/H4.html" class="link">Celerity::H4</a><br />
+Class <a href="Celerity/H4s.html" class="link">Celerity::H4s</a><br />
+Class <a href="Celerity/H5.html" class="link">Celerity::H5</a><br />
+Class <a href="Celerity/H5s.html" class="link">Celerity::H5s</a><br />
+Class <a href="Celerity/H6.html" class="link">Celerity::H6</a><br />
+Class <a href="Celerity/H6s.html" class="link">Celerity::H6s</a><br />
+Class <a href="Celerity/Hidden.html" class="link">Celerity::Hidden</a><br />
+Class <a href="Celerity/Hiddens.html" class="link">Celerity::Hiddens</a><br />
+Class <a href="Celerity/Identifier.html" class="link">Celerity::Identifier</a><br />
+Class <a href="Celerity/IgnoringWebConnection.html" class="link">Celerity::IgnoringWebConnection</a><br />
+Class <a href="Celerity/Image.html" class="link">Celerity::Image</a><br />
+Class <a href="Celerity/Images.html" class="link">Celerity::Images</a><br />
+Class <a href="Celerity/InputElement.html" class="link">Celerity::InputElement</a><br />
+Class <a href="Celerity/JavascriptDebugger.html" class="link">Celerity::JavascriptDebugger</a><br />
+Class <a href="Celerity/Label.html" class="link">Celerity::Label</a><br />
+Class <a href="Celerity/Labels.html" class="link">Celerity::Labels</a><br />
+Class <a href="Celerity/Li.html" class="link">Celerity::Li</a><br />
+Class <a href="Celerity/Link.html" class="link">Celerity::Link</a><br />
+Class <a href="Celerity/Links.html" class="link">Celerity::Links</a><br />
+Class <a href="Celerity/Lis.html" class="link">Celerity::Lis</a><br />
+Class <a href="Celerity/Listener.html" class="link">Celerity::Listener</a><br />
+Class <a href="Celerity/Map.html" class="link">Celerity::Map</a><br />
+Class <a href="Celerity/Maps.html" class="link">Celerity::Maps</a><br />
+Class <a href="Celerity/Meta.html" class="link">Celerity::Meta</a><br />
+Class <a href="Celerity/Metas.html" class="link">Celerity::Metas</a><br />
+Class <a href="Celerity/NonControlElement.html" class="link">Celerity::NonControlElement</a><br />
+Class <a href="Celerity/Ol.html" class="link">Celerity::Ol</a><br />
+Class <a href="Celerity/Ols.html" class="link">Celerity::Ols</a><br />
+Class <a href="Celerity/Option.html" class="link">Celerity::Option</a><br />
+Class <a href="Celerity/Options.html" class="link">Celerity::Options</a><br />
+Class <a href="Celerity/P.html" class="link">Celerity::P</a><br />
+Class <a href="Celerity/Pre.html" class="link">Celerity::Pre</a><br />
+Class <a href="Celerity/Pres.html" class="link">Celerity::Pres</a><br />
+Class <a href="Celerity/Ps.html" class="link">Celerity::Ps</a><br />
+Class <a href="Celerity/Radio.html" class="link">Celerity::Radio</a><br />
+Class <a href="Celerity/RadioCheckCommon.html" class="link">Celerity::RadioCheckCommon</a><br />
+Class <a href="Celerity/Radios.html" class="link">Celerity::Radios</a><br />
+Class <a href="Celerity/SelectList.html" class="link">Celerity::SelectList</a><br />
+Class <a href="Celerity/SelectLists.html" class="link">Celerity::SelectLists</a><br />
+Class <a href="Celerity/Span.html" class="link">Celerity::Span</a><br />
+Class <a href="Celerity/Spans.html" class="link">Celerity::Spans</a><br />
+Class <a href="Celerity/Strong.html" class="link">Celerity::Strong</a><br />
+Class <a href="Celerity/Strongs.html" class="link">Celerity::Strongs</a><br />
+Class <a href="Celerity/Table.html" class="link">Celerity::Table</a><br />
+Class <a href="Celerity/TableBodies.html" class="link">Celerity::TableBodies</a><br />
+Class <a href="Celerity/TableBody.html" class="link">Celerity::TableBody</a><br />
+Class <a href="Celerity/TableCell.html" class="link">Celerity::TableCell</a><br />
+Class <a href="Celerity/TableCells.html" class="link">Celerity::TableCells</a><br />
+Class <a href="Celerity/TableElement.html" class="link">Celerity::TableElement</a><br />
+Class <a href="Celerity/TableFooter.html" class="link">Celerity::TableFooter</a><br />
+Class <a href="Celerity/TableFooters.html" class="link">Celerity::TableFooters</a><br />
+Class <a href="Celerity/TableHeader.html" class="link">Celerity::TableHeader</a><br />
+Class <a href="Celerity/TableHeaders.html" class="link">Celerity::TableHeaders</a><br />
+Class <a href="Celerity/TableRow.html" class="link">Celerity::TableRow</a><br />
+Class <a href="Celerity/TableRows.html" class="link">Celerity::TableRows</a><br />
+Class <a href="Celerity/Tables.html" class="link">Celerity::Tables</a><br />
+Class <a href="Celerity/TextField.html" class="link">Celerity::TextField</a><br />
+Class <a href="Celerity/TextFields.html" class="link">Celerity::TextFields</a><br />
+Class <a href="Celerity/Th.html" class="link">Celerity::Th</a><br />
+Class <a href="Celerity/Ul.html" class="link">Celerity::Ul</a><br />
+Class <a href="Celerity/Uls.html" class="link">Celerity::Uls</a><br />
+Class <a href="Celerity/ViewerConnection.html" class="link">Celerity::ViewerConnection</a><br />
+
+    </div>
+
+    <div id="constants-list">
+      <h3 class="section-bar">Constants</h3>
+
+      <div class="name-list">
+        <table summary="Constants">
+        <tr class="top-aligned-row context-row">
+          <td class="context-item-name">Jars</td>
+          <td>=</td>
+          <td class="context-item-value">Dir[File.dirname(__FILE__) + '/htmlunit/*.jar']</td>
+        </tr>
+        <tr class="top-aligned-row context-row">
+          <td class="context-item-name">VERSION</td>
+          <td>=</td>
+          <td class="context-item-value">&quot;0.7.7&quot;</td>
+        </tr>
+        <tr class="top-aligned-row context-row">
+          <td class="context-item-name">Log</td>
+          <td>=</td>
+          <td class="context-item-value">Logger.new($DEBUG ? $stderr : nil)</td>
+        </tr>
+        <tr class="top-aligned-row context-row">
+          <td class="context-item-name">DIR</td>
+          <td>=</td>
+          <td class="context-item-value">File.expand_path(File.dirname(__FILE__) + &quot;/celerity&quot;)</td>
+        </tr>
+        </table>
+      </div>
+    </div>
+
+
+
+    <div id="attribute-list">
+      <h3 class="section-bar">Attributes</h3>
+
+      <div class="name-list">
+        <table>
+        <tr class="top-aligned-row context-row">
+          <td class="context-item-name">index_offset</td>
+          <td class="context-item-value">&nbsp;[RW]&nbsp;</td>
+          <td class="context-item-desc">
+This index_offset attribute controls the indexing used when locating
+elements by :index or fetching from Celerity::ElementCollections.
+
+<p>
+By default it is set to 1 for Watir compatibility, but users who use <a
+href="Celerity.html">Celerity</a> exlusively may want it set to 0 to make
+<a href="Celerity.html">Celerity</a> more consistent with Ruby.
+</p>
+</td>
+        </tr>
+        </table>
+      </div>
+    </div>
+      
+
+
+    <!-- if method_list -->
+
+
+  </div>
+
+
+<div id="validator-badges">
+  <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+</div>
+
+</body>
+</html>

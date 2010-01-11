@@ -1,0 +1,54 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+constants: 
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: TAGS
+    value: "[ Identifier.new('table') ]"
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: ATTRIBUTES
+    value: BASE_ATTRIBUTES | [                                       :align,                                       :bgcolor,                                       :border,                                       :cellpadding,                                       :cellspacing,                                       :frame,                                       :rules,                                       :summary,                                       :width,                                     ]
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: DEFAULT_HOW
+    value: ":id"
+full_name: Celerity::Table
+includes: 
+  - !ruby/object:RI::IncludedModule 
+    name: ClickableElement
+  - !ruby/object:RI::IncludedModule 
+    name: Enumerable
+  - !ruby/object:RI::IncludedModule 
+    name: Container
+instance_methods: 
+  - !ruby/object:RI::MethodSummary 
+    name: "[]"
+  - !ruby/object:RI::MethodSummary 
+    name: cells
+  - !ruby/object:RI::MethodSummary 
+    name: child_cell
+  - !ruby/object:RI::MethodSummary 
+    name: child_row
+  - !ruby/object:RI::MethodSummary 
+    name: column_count
+  - !ruby/object:RI::MethodSummary 
+    name: column_values
+  - !ruby/object:RI::MethodSummary 
+    name: each
+  - !ruby/object:RI::MethodSummary 
+    name: locate
+  - !ruby/object:RI::MethodSummary 
+    name: row_count
+  - !ruby/object:RI::MethodSummary 
+    name: row_values
+  - !ruby/object:RI::MethodSummary 
+    name: rows
+  - !ruby/object:RI::MethodSummary 
+    name: to_a
+name: Table
+superclass: Element

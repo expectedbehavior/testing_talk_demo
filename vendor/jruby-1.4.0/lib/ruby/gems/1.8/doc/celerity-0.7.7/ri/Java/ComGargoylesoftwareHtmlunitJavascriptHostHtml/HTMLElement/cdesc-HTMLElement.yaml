@@ -1,0 +1,16 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+constants: []
+
+full_name: Java::ComGargoylesoftwareHtmlunitJavascriptHostHtml::HTMLElement
+includes: 
+  - !ruby/object:RI::IncludedModule 
+    name: Celerity::JsxHelper
+instance_methods: []
+
+name: HTMLElement
+superclass: Object

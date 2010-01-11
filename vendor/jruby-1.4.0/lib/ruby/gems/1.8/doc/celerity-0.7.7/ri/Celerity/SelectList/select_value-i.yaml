@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: Selects the option(s) whose value attribute matches the given string. @param [String, Regexp] value A value. @raise [Celerity::Exception::NoValueFoundException] if the value does not exist. @return [String] The option selected. If multiple options match, returns the first match
+full_name: Celerity::SelectList#select_value
+is_singleton: false
+name: select_value
+params: (value)
+visibility: public

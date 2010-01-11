@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: "@return [Celerity::H3s]"
+full_name: Celerity::Container#h3s
+is_singleton: false
+name: h3s
+params: ()
+visibility: public

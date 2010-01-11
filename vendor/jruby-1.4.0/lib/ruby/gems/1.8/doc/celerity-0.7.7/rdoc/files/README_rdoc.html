@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>File: README.rdoc</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <link rel="stylesheet" href=".././rdoc-style.css" type="text/css" media="screen" />
+  <script type="text/javascript">
+  // <![CDATA[
+
+  function popupCode( url ) {
+    window.open(url, "Code", "resizable=yes,scrollbars=yes,toolbar=no,status=no,height=150,width=400")
+  }
+
+  function toggleCode( id ) {
+    if ( document.getElementById )
+      elem = document.getElementById( id );
+    else if ( document.all )
+      elem = eval( "document.all." + id );
+    else
+      return false;
+
+    elemStyle = elem.style;
+    
+    if ( elemStyle.display != "block" ) {
+      elemStyle.display = "block"
+    } else {
+      elemStyle.display = "none"
+    }
+
+    return true;
+  }
+  
+  // Make codeblocks hidden by default
+  document.writeln( "<style type=\"text/css\">div.method-source-code { display: none }</style>" )
+  
+  // ]]>
+  </script>
+
+</head>
+<body>
+
+
+
+  <div id="fileHeader">
+    <h1>README.rdoc</h1>
+    <table class="header-table">
+    <tr class="top-aligned-row">
+      <td><strong>Path:</strong></td>
+      <td>README.rdoc
+      </td>
+    </tr>
+    <tr class="top-aligned-row">
+      <td><strong>Last Update:</strong></td>
+      <td>Mon Jan 11 15:39:46 -0500 2010</td>
+    </tr>
+    </table>
+  </div>
+  <!-- banner header -->
+
+  <div id="bodyContent">
+
+
+
+  <div id="contextContent">
+
+    <div id="description">
+      <h1><a href="../classes/Celerity.html">Celerity</a></h1>
+<ul>
+<li><a href="http://celerity.rubyforge.org">celerity.rubyforge.org</a>/
+
+</li>
+</ul>
+<h2>Description</h2>
+<p>
+<a href="../classes/Celerity.html">Celerity</a> is a JRuby library for easy
+and fast functional test automation for web applications.
+</p>
+<p>
+<a href="../classes/Celerity.html">Celerity</a> is a JRuby wrapper around
+<a href="../classes/HtmlUnit.html">HtmlUnit</a> – a headless <a
+href="../classes/Java.html">Java</a> browser with JavaScript support. It
+provides a simple API for programmatic navigation through web applications.
+<a href="../classes/Celerity.html">Celerity</a> provides a superset of
+Watir&#8216;s API.
+</p>
+<h2>Features</h2>
+<ul>
+<li><b>Fast</b>: No time-consuming GUI rendering or unessential downloads
+
+</li>
+<li><b>Scalable</b>: <a href="../classes/Java.html">Java</a> threads lets you
+run tests in parallel
+
+</li>
+<li>*Easy to use*: Simple API
+
+</li>
+<li><b>Portable</b>: Cross-platform thanks to the JVM
+
+</li>
+<li><b>Unintrusive</b>: No browser window interrupting your workflow (runs in
+background)
+
+</li>
+</ul>
+<h2>Requirements</h2>
+<ul>
+<li>JRuby 1.2.0 or higher
+
+</li>
+<li><a href="../classes/Java.html">Java</a> 6
+
+</li>
+</ul>
+<h2>Install</h2>
+<pre>
+    jruby -S gem install celerity
+</pre>
+<p>
+To always get the latest version, you should use Gemcutter as your primary
+gem source:
+</p>
+<pre>
+    jruby -S gem install gemcutter
+    jruby -S gem tumble
+    jruby -S gem install celerity
+</pre>
+<h2>Example</h2>
+<pre>
+    require &quot;rubygems&quot;
+    require &quot;celerity&quot;
+
+    browser = Celerity::Browser.new
+    browser.goto('http://www.google.com')
+    browser.text_field(:name, 'q').value = 'Celerity'
+    browser.button(:name, 'btnG').click
+
+    puts &quot;yay&quot; if browser.text.include? 'celerity.rubyforge.org'
+</pre>
+<h2>Source</h2>
+<p>
+The source code is available on [GitHub](<a
+href="http://github.com/jarib/celerity/tree/master">github.com/jarib/celerity/tree/master</a>).
+</p>
+<h2>Wiki &amp; Bug Tracker</h2>
+<ul>
+<li>[Wiki](<a
+href="http://github.com/jarib/celerity/wikis">github.com/jarib/celerity/wikis</a>)
+
+</li>
+<li>[Bug Tracker](<a
+href="http://github.com/jarib/celerity/issues">github.com/jarib/celerity/issues</a>)
+
+</li>
+</ul>
+<h2>Related projects</h2>
+<ul>
+<li>[WatirSpec](<a
+href="http://github.com/jarib/watirspec/tree/master">github.com/jarib/watirspec/tree/master</a>)
+
+</li>
+<li>[<a href="../classes/Celerity.html">Celerity</a> Viewers](<a
+href="http://github.com/jarib/celerity-viewers">github.com/jarib/celerity-viewers</a>)
+
+</li>
+</ul>
+<h2>License</h2>
+<p>
+<a href="../classes/Celerity.html">Celerity</a> - JRuby wrapper for <a
+href="../classes/HtmlUnit.html">HtmlUnit</a> Copyright (c) 2008-2009
+FINN.no AS
+</p>
+<p>
+This program is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option)
+any later version.
+</p>
+<p>
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+more details.
+</p>
+<p>
+You should have received a copy of the GNU General Public License along
+with this program. If not, see &lt;<a
+href="http://www.gnu.org/licenses">www.gnu.org/licenses</a>/&gt;.
+</p>
+
+    </div>
+
+
+   </div>
+
+
+  </div>
+
+
+    <!-- if includes -->
+
+    <div id="section">
+
+
+
+
+
+      
+
+
+    <!-- if method_list -->
+
+
+  </div>
+
+
+<div id="validator-badges">
+  <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+constants: 
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: TAGS
+    value: "[ Identifier.new('dl')]"
+full_name: Celerity::Dl
+includes: []
+
+instance_methods: []
+
+name: Dl
+superclass: NonControlElement

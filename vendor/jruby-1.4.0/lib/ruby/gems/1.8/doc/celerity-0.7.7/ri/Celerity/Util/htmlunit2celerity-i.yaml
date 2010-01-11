@@ -1,0 +1,10 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+full_name: Celerity::Util#htmlunit2celerity
+is_singleton: false
+name: htmlunit2celerity
+params: (klass)
+visibility: public

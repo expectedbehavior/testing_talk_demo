@@ -1,0 +1,10 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: ""
+comment: 
+full_name: Celerity::Browser#trace_javascript
+is_singleton: false
+name: trace_javascript
+params: (debugger_klass = Celerity::JavascriptDebugger, &blk) {|| ...}
+visibility: public

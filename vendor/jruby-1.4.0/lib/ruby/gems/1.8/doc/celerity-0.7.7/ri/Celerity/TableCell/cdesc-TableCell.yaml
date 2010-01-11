@@ -1,0 +1,32 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+constants: 
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: TAGS
+    value: "[ Identifier.new('td') ]"
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: ATTRIBUTES
+    value: BASE_ATTRIBUTES | CELLHALIGN_ATTRIBUTES | CELLVALIGN_ATTRIBUTES |                  [                    :abbr,                    :axis,                    :colspan,                    :headers,                    :rowspan,                    :scope,                  ]
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: DEFAULT_HOW
+    value: ":id"
+full_name: Celerity::TableCell
+includes: 
+  - !ruby/object:RI::IncludedModule 
+    name: Celerity::Exception
+  - !ruby/object:RI::IncludedModule 
+    name: ClickableElement
+  - !ruby/object:RI::IncludedModule 
+    name: Container
+instance_methods: 
+  - !ruby/object:RI::MethodSummary 
+    name: colspan
+name: TableCell
+superclass: Element

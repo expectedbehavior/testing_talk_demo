@@ -1,0 +1,25 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: Mixed in to all elements that can have the 'disabled' attribute.
+constants: []
+
+full_name: Celerity::DisabledElement
+includes: 
+  - !ruby/object:RI::IncludedModule 
+    name: Celerity::Exception
+instance_methods: 
+  - !ruby/object:RI::MethodSummary 
+    name: assert_enabled
+  - !ruby/object:RI::MethodSummary 
+    name: disabled
+  - !ruby/object:RI::MethodSummary 
+    name: disabled?
+  - !ruby/object:RI::MethodSummary 
+    name: enabled?
+name: DisabledElement
+superclass: 

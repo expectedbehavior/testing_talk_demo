@@ -1,0 +1,17 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: This exception is raised if an attempt is made to access a table row that doesn't exist
+constants: []
+
+full_name: Celerity::Exception::UnknownRowException
+includes: []
+
+instance_methods: []
+
+name: UnknownRowException
+superclass: CelerityException

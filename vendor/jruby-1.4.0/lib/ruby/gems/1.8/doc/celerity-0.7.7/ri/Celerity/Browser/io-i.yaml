@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: "@return [IO, nil] page contents as an IO, returns nil if no page is loaded."
+full_name: Celerity::Browser#io
+is_singleton: false
+name: io
+params: ()
+visibility: public

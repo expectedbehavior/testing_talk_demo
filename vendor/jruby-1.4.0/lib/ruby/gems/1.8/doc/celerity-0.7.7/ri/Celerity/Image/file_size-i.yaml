@@ -1,0 +1,13 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: 
+  - !ruby/object:RI::AliasName 
+    name: fileSize
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: returns the file size of the image in bytes
+full_name: Celerity::Image#file_size
+is_singleton: false
+name: file_size
+params: ()
+visibility: public

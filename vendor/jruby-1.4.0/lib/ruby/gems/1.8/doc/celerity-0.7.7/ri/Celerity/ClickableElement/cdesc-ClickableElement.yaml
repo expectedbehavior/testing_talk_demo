@@ -1,0 +1,26 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+constants: []
+
+full_name: Celerity::ClickableElement
+includes: []
+
+instance_methods: 
+  - !ruby/object:RI::MethodSummary 
+    name: click
+  - !ruby/object:RI::MethodSummary 
+    name: click_and_attach
+  - !ruby/object:RI::MethodSummary 
+    name: click_no_wait
+  - !ruby/object:RI::MethodSummary 
+    name: double_click
+  - !ruby/object:RI::MethodSummary 
+    name: download
+  - !ruby/object:RI::MethodSummary 
+    name: right_click
+name: ClickableElement
+superclass: 

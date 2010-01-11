@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: Go forward one history item @return [String] The url of the resulting page.
+full_name: Celerity::Browser#forward
+is_singleton: false
+name: forward
+params: ()
+visibility: public

@@ -1,0 +1,37 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: 
+  - !ruby/object:RI::Attribute 
+    comment: 
+      - !ruby/struct:SM::Flow::P 
+        body: This index_offset attribute controls the indexing used when locating elements by :index or fetching from Celerity::ElementCollections.
+      - !ruby/struct:SM::Flow::P 
+        body: By default it is set to 1 for Watir compatibility, but users who use Celerity exlusively may want it set to 0 to make Celerity more consistent with Ruby.
+    name: index_offset
+    rw: RW
+class_methods: []
+
+comment: 
+constants: 
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: Jars
+    value: Dir[File.dirname(__FILE__) + '/htmlunit/*.jar']
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: VERSION
+    value: "\"0.7.7\""
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: Log
+    value: "Logger.new($DEBUG ? $stderr : nil)"
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: DIR
+    value: File.expand_path(File.dirname(__FILE__) + "/celerity")
+full_name: Celerity
+includes: []
+
+instance_methods: []
+
+name: Celerity
+superclass: 

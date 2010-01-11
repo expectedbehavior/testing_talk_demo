@@ -1,0 +1,16 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: Return the text content of this DOM node, disregarding its visibility.
+  - !ruby/struct:SM::Flow::P 
+    body: (Celerity-specific?)
+  - !ruby/struct:SM::Flow::P 
+    body: "@see text @return [String]"
+full_name: Celerity::Element#inner_text
+is_singleton: false
+name: inner_text
+params: ()
+visibility: public

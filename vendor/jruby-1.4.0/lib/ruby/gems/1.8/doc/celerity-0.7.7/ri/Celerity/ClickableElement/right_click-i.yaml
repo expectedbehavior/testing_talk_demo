@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: right click the element (Celerity only)
+full_name: Celerity::ClickableElement#right_click
+is_singleton: false
+name: right_click
+params: ()
+visibility: public

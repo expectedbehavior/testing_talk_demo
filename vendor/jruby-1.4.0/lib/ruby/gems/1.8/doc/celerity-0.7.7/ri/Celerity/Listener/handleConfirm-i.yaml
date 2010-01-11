@@ -1,0 +1,16 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: interface ConfirmHandler
+  - !ruby/struct:SM::Flow::P 
+    body: The returned value is determined by the last registered :confirm listener proc. If it is nil, return true, otherwise return that value as a boolean.
+  - !ruby/struct:SM::Flow::P 
+    body: "@see Browser#confirm"
+full_name: Celerity::Listener#handleConfirm
+is_singleton: false
+name: handleConfirm
+params: (page, message)
+visibility: public

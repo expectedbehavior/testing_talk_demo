@@ -1,0 +1,16 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: "Note: This can be quite useful in irb:"
+  - !ruby/struct:SM::Flow::VERB 
+    body: "  puts browser.text_fields\n"
+  - !ruby/struct:SM::Flow::P 
+    body: "@return [String] A string representation of all elements in this collection."
+full_name: Celerity::ElementCollection#to_s
+is_singleton: false
+name: to_s
+params: ()
+visibility: public

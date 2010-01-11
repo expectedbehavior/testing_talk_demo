@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: TableRow.new(self, :object, row)  }
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: Iterates through each row in the table. @yieldparam [Celerity::TableRow] row A row.
+full_name: Celerity::Table#each
+is_singleton: false
+name: each
+params: () {|TableRow.new(self, :object, row) }| ...}
+visibility: public

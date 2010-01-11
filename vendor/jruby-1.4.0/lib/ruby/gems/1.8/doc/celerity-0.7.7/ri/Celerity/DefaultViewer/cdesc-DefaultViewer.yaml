@@ -1,0 +1,21 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: 
+  - !ruby/object:RI::MethodSummary 
+    name: close
+  - !ruby/object:RI::MethodSummary 
+    name: save
+comment: 
+constants: 
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: IMAGE
+    value: "\"#{Celerity::DIR}/resources/no_viewer.png\""
+full_name: Celerity::DefaultViewer
+includes: []
+
+instance_methods: []
+
+name: DefaultViewer
+superclass: Object

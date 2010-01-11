@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: "@return [Celerity::TableFooter]"
+full_name: Celerity::Container#tfoot
+is_singleton: false
+name: tfoot
+params: (*args)
+visibility: public

@@ -1,0 +1,23 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: []
+
+constants: 
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: ATTRIBUTES
+    value: ATTRIBUTES | [                                 :accesskey,                                 :alt,                                 :coords,                                 :href,                                 :nohref,                                 :onblur,                                 :onfocus,                                 :shape,                                 :tabindex,                               ]
+  - !ruby/object:RI::Constant 
+    comment: 
+    name: TAGS
+    value: "[ Identifier.new('area') ]"
+full_name: Celerity::Area
+includes: []
+
+instance_methods: []
+
+name: Area
+superclass: NonControlElement

@@ -1,0 +1,12 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: Remove the given checker from the list of checkers @param [Proc] checker The Proc to disable.
+full_name: Celerity::Browser#disable_checker
+is_singleton: false
+name: disable_checker
+params: (checker)
+visibility: public

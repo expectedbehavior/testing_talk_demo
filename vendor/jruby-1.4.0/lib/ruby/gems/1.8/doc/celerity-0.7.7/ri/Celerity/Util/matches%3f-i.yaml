@@ -1,0 +1,16 @@
+--- !ruby/object:RI::MethodDescription 
+aliases: []
+
+block_params: 
+comment: 
+  - !ruby/struct:SM::Flow::P 
+    body: Used internally.
+  - !ruby/struct:SM::Flow::P 
+    body: "@param [String] string The string to match against. @param [Regexp, String, #to_s] what The match we're looking for. @return [Fixnum, true, false, nil]"
+  - !ruby/struct:SM::Flow::P 
+    body: "@api private"
+full_name: Celerity::Util#matches?
+is_singleton: false
+name: matches?
+params: (string, what)
+visibility: public

@@ -1,0 +1,17 @@
+--- !ruby/object:RI::ClassDescription 
+attributes: []
+
+class_methods: []
+
+comment: 
+constants: []
+
+full_name: Java::OrgW3cDom::NamedNodeMap
+includes: 
+  - !ruby/object:RI::IncludedModule 
+    name: Enumerable
+instance_methods: 
+  - !ruby/object:RI::MethodSummary 
+    name: each
+name: NamedNodeMap
+superclass: 
