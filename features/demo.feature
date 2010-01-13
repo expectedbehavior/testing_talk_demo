@@ -6,6 +6,7 @@ Feature: Demo
   @ajax
   Scenario: Submit a form and get a response over ajax
     Given I am on the demo page
+    Then I should not see "I'm dynamic!"
     When I press "Save changes"
     And I wait for the AJAX call to finish
     Then I should see "I'm dynamic!"
